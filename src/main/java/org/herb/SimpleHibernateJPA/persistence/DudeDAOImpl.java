@@ -9,12 +9,14 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 import org.herb.SimpleHibernateJPA.domain.Dude;
+import org.junit.runner.RunWith;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
  * @author herb
  *
  */
+
 @Transactional
 public class DudeDAOImpl {
 
